@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WeatherPy Site</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"href="../css/style.css"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="../../index.html">Home</span></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Visualizations
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="visualizations1.html">Latitude vs. Temperature Plot</a></li>
+                            <li><a class="dropdown-item" href="visualizations2.html">Latitude vs. Humidity Plot</a></li>
+                            <li><a class="dropdown-item" href="visualizations3.html">Latitude vs. Cloudiness Plot</a></li>
+                            <li><a class="dropdown-item" href="visualizations4.html">Latitude vs. Wind Speed Plot</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparisons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <h1 class="header">Latitude vs. Cloudiness Plot</h1>
+                    <hr>
+                    <img class="visualizationsImage" src="../images/LVCP_img3.png" alt="Latitude vs. Cloudiness Plot">
+                </div>
+                <div class="row">
+                    <p>
+                        Latitude and cloudiness do not have a strong correlation or pattern, however there is a concentration of locations at extreme cloudiness values.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2 class="header">Visualizations</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col">
+                                <a href="visualizations1.html"><img class="sidebarImage" src="../images/LVTP_img1.png" alt="Latitude vs. Temperature Plot"></a>
+                            </div>
+                            <div class="col">
+                                <a href="visualizations2.html"><img class="sidebarImage" src="../images/LVHP_img2.png" alt="Latitude vs. Humidity Plot"></a>
+                            </div>
+                            <div class="col">
+                                <a href="visualizations3.html"><img class="sidebarImage" src="../images/LVCP_img3.png" alt="Latitude vs. Cloudiness Plot"></a>
+                            </div>
+                            <div class="col">
+                                <a href="visualizations4.html"><img class="sidebarImage" src="../images/LVWSP_img4.png" alt="Latitude vs. Wind Speed Plot"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
